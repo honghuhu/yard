@@ -1,0 +1,19 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: acl
+          uri: lb://acl
+          predicates:
+            - Path=/acl/**
+    
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
