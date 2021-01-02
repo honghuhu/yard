@@ -12,6 +12,8 @@ import io.renren.modules.app.annotation.LoginUser;
 import io.renren.modules.app.entity.UserEntity;
 import io.renren.modules.app.interceptor.AuthorizationInterceptor;
 import io.renren.modules.app.service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.support.WebDataBinderFactory;

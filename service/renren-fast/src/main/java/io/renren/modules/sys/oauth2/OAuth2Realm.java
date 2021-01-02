@@ -11,6 +11,8 @@ package io.renren.modules.sys.oauth2;
 import io.renren.modules.sys.entity.SysUserEntity;
 import io.renren.modules.sys.entity.SysUserTokenEntity;
 import io.renren.modules.sys.service.ShiroService;
+import lombok.AllArgsConstructor;
+
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
@@ -26,9 +28,10 @@ import java.util.Set;
  * @author Mark sunlightcs@gmail.com
  */
 @Component
+@AllArgsConstructor
 public class OAuth2Realm extends AuthorizingRealm {
-    @Autowired
-    private ShiroService shiroService;
+
+    private final ShiroService shiroService;
 
     @Override
     public boolean supports(AuthenticationToken token) {

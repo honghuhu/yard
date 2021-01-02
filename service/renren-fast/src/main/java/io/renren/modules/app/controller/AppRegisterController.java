@@ -16,6 +16,8 @@ import io.renren.modules.app.form.RegisterForm;
 import io.renren.modules.app.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.AllArgsConstructor;
+
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -32,9 +34,10 @@ import java.util.Date;
 @RestController
 @RequestMapping("/app")
 @Api("APP注册接口")
+@AllArgsConstructor
 public class AppRegisterController {
-    @Autowired
-    private UserService userService;
+
+    private final UserService userService;
 
     @PostMapping("register")
     @ApiOperation("注册")

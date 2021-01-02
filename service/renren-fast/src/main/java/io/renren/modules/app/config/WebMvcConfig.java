@@ -10,6 +10,8 @@ package io.renren.modules.app.config;
 
 import io.renren.modules.app.interceptor.AuthorizationInterceptor;
 import io.renren.modules.app.resolver.LoginUserHandlerMethodArgumentResolver;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
