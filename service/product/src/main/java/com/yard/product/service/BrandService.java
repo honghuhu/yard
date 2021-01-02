@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 品牌
-*/
+ */
 public interface BrandService extends IService<BrandEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

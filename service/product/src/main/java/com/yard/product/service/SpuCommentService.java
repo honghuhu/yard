@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 商品评价
-*/
+ */
 public interface SpuCommentService extends IService<SpuCommentEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

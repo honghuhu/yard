@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 属性分组
-*/
+ */
 public interface AttrGroupService extends IService<AttrGroupEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

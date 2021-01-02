@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 采购信息
-*/
+ */
 public interface PurchaseService extends IService<PurchaseEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

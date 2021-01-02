@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 订单项信息
-*/
+ */
 public interface OrderItemService extends IService<OrderItemEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

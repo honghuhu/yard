@@ -7,8 +7,8 @@ import com.yard.ware.entity.UndoLogEntity;
 import java.util.Map;
 
 /**
- * 
-*/
+ *
+ */
 public interface UndoLogService extends IService<UndoLogEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

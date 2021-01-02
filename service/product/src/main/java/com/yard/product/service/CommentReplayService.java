@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 商品评价回复关系
-*/
+ */
 public interface CommentReplayService extends IService<CommentReplayEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

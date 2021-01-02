@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * sku图片
-*/
+ */
 public interface SkuImagesService extends IService<SkuImagesEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

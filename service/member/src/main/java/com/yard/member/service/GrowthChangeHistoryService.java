@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 成长值变化历史记录
-*/
+ */
 public interface GrowthChangeHistoryService extends IService<GrowthChangeHistoryEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

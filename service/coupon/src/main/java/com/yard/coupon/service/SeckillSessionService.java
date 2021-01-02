@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 秒杀活动场次
-*/
+ */
 public interface SeckillSessionService extends IService<SeckillSessionEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * spu属性值
-*/
+ */
 public interface ProductAttrValueService extends IService<ProductAttrValueEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

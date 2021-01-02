@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * spu信息
-*/
+ */
 public interface SpuInfoService extends IService<SpuInfoEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

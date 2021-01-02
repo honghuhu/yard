@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 会员
-*/
+ */
 public interface MemberService extends IService<MemberEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

@@ -1,57 +1,57 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CouponApplication",
-            "request": "launch",
-            "mainClass": "com.yard.coupon.CouponApplication",
-            "projectName": "coupon"
-        },
-        {
-            "type": "java",
-            "name": "MemberApplication",
-            "request": "launch",
-            "mainClass": "com.yard.member.MemberApplication",
-            "projectName": "member"
-        },
-        {
-            "type": "java",
-            "name": "OrderApplication",
-            "request": "launch",
-            "mainClass": "com.yard.order.OrderApplication",
-            "projectName": "order"
-        },
-        {
-            "type": "java",
-            "name": "ProductApplication",
-            "request": "launch",
-            "mainClass": "com.yard.product.ProductApplication",
-            "projectName": "product"
-        },
-        {
-            "type": "java",
-            "name": "RenrenFastApplication",
-            "request": "launch",
-            "mainClass": "io.renren.RenrenApplication",
-            "projectName": "renren-fast"
-        },
-        {
-            "type": "java",
-            "name": "RenrenGeneratorApplication",
-            "request": "launch",
-            "mainClass": "io.renren.RenrenApplication",
-            "projectName": "renren-generator"
-        },
-        {
-            "type": "java",
-            "name": "WareApplication",
-            "request": "launch",
-            "mainClass": "com.yard.ware.WareApplication",
-            "projectName": "ware"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CouponApplication",
+      "request": "launch",
+      "mainClass": "com.yard.coupon.CouponApplication",
+      "projectName": "coupon"
+    },
+    {
+      "type": "java",
+      "name": "MemberApplication",
+      "request": "launch",
+      "mainClass": "com.yard.member.MemberApplication",
+      "projectName": "member"
+    },
+    {
+      "type": "java",
+      "name": "OrderApplication",
+      "request": "launch",
+      "mainClass": "com.yard.order.OrderApplication",
+      "projectName": "order"
+    },
+    {
+      "type": "java",
+      "name": "ProductApplication",
+      "request": "launch",
+      "mainClass": "com.yard.product.ProductApplication",
+      "projectName": "product"
+    },
+    {
+      "type": "java",
+      "name": "RenrenFastApplication",
+      "request": "launch",
+      "mainClass": "io.renren.RenrenApplication",
+      "projectName": "renren-fast"
+    },
+    {
+      "type": "java",
+      "name": "RenrenGeneratorApplication",
+      "request": "launch",
+      "mainClass": "io.renren.RenrenApplication",
+      "projectName": "renren-generator"
+    },
+    {
+      "type": "java",
+      "name": "WareApplication",
+      "request": "launch",
+      "mainClass": "com.yard.ware.WareApplication",
+      "projectName": "ware"
+    }
+  ]
 }

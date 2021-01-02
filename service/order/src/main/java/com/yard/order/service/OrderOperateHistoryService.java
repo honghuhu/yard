@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 订单操作历史记录
-*/
+ */
 public interface OrderOperateHistoryService extends IService<OrderOperateHistoryEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

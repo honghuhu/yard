@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * 商品属性
-*/
+ */
 public interface AttrService extends IService<AttrEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
