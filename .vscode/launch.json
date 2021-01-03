@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ProductApplication",
+      "request": "launch",
+      "mainClass": "com.yard.ProductApplication",
+      "projectName": "product"
+    },
+    {
+      "type": "java",
       "name": "CouponApplication",
       "request": "launch",
       "mainClass": "com.yard.coupon.CouponApplication",
@@ -22,14 +29,14 @@
       "type": "java",
       "name": "OrderApplication",
       "request": "launch",
-      "mainClass": "com.yard.order.OrderApplication",
+      "mainClass": "com.yard.OrderApplication",
       "projectName": "order"
     },
     {
       "type": "java",
       "name": "ProductApplication",
       "request": "launch",
-      "mainClass": "com.yard.product.ProductApplication",
+      "mainClass": "com.yard.ProductApplication",
       "projectName": "product"
     },
     {
@@ -50,7 +57,7 @@
       "type": "java",
       "name": "WareApplication",
       "request": "launch",
-      "mainClass": "com.yard.ware.WareApplication",
+      "mainClass": "com.yard.WareApplication",
       "projectName": "ware"
     }
   ]
