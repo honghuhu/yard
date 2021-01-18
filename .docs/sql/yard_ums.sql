@@ -1,3 +1,6 @@
+create database yard_ums;
+use yard_ums;
+
 drop table if exists ums_growth_change_history;
 
 drop table if exists ums_integration_change_history;

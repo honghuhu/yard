@@ -1,3 +1,6 @@
+create database yard_oms;
+use yard_oms;
+
 drop table if exists oms_order;
 
 drop table if exists oms_order_item;

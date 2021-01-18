@@ -1,3 +1,6 @@
+create database yard_wms;
+use yard_wms;
+
 /*Table structure for table `undo_log` */
 DROP TABLE IF EXISTS `undo_log`;
 

@@ -1,3 +1,5 @@
+create database yard_admin;
+use yard_admin;
 /*Table structure for table `sys_menu` */
 DROP TABLE IF EXISTS `sys_menu`;
 
